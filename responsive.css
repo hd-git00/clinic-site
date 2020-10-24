@@ -1,0 +1,246 @@
+/* <!--670~1000px = change profile display ---> */
+
+@media(max-width:1000px){
+  /* .ab-img-002{
+    width: 670px;
+  }
+  .ab-img-001{
+    width: 670px;
+  } */
+  .ab{
+    background-color:whitesmoke;
+    width:100%;
+    height:1000px;
+    display:block;
+  }
+  .ab-img-002{
+    display:none;
+    
+  }
+  .ab-img-001{
+    width:350px;
+    height:75%; 
+    margin:50px 30%; 
+    display:inline-block; 
+    background-color:rgb(85, 97, 97); 
+    opacity: 0.5;
+    transform:skewX(-5deg);
+    position: absolute;
+    overflow:hidden;
+    text-align: center;
+
+  }
+
+  .ab-bx{
+    display:block;
+    width:100%;
+    margin-top:200px;
+    text-align: center;
+  }
+  .ab-bx-tx-001{
+    margin:0 auto;
+  }
+
+}
+/* <!--~670 = change profile display,delete navi bar ---> */
+@media(max-width:700px){
+  /* .ab-img-001{
+    width: 670px;
+  }
+  .ab-img-001{
+    width: 670px;
+  } */
+  
+  /* commom */
+  .bx{
+    height:800px;
+  }
+
+  .ttl a{
+    padding:33px 50px;
+    font-size:18px;
+  }
+
+   /* <!--Navigation--> */
+  .nv-ttl-002-001{
+    font-size:10px;
+  }
+  .nv-ttl-002-002{
+    font-size:10px;
+  }
+
+  /* // <!-- TOP --> */
+
+  #tp-bx-ttl-001{
+    font-size:50px;
+  }
+
+
+  /* 理念 */
+  .th-tx{
+    display:block;
+  }
+  .th-tx-001{
+    width:90%;
+    height:25%;
+  }
+  .th-tx-001-1{
+    font-size:30px;
+  }
+  .th-tx-001-2{
+    font-size:15px;
+  }
+
+  /* サービス */
+  .sr-tx-001{
+    display:block;
+  }
+  .sr-tx{
+    height:650px;
+    align-items: center;
+  }
+
+  .sr-tx-001{
+      display:block;
+      height:200px;
+      width:90%;
+      text-align: center;
+      margin:10px auto;
+      padding-top:30px;
+    }
+  .sr-tx-001-1{
+    margin:0px 0px;
+    font-size:20px;
+    width:100%;
+    display:block;
+    padding:20px auto 5px auto;
+    }
+
+  .sr-tx-001-2{
+    width:100%;
+    display: block;
+    margin:0px 0px;
+    padding:5px auto 5px auto;
+    font-size:20px;
+  }
+  .sr-tx-001-3{
+    width:100%;
+    display:block;
+    text-align: center;
+    margin:0px 0px;
+    padding:5px auto 5px auto;
+    font-size:15px;
+  }
+
+  /* // <!-- 実績 --> */
+  .bx-wr{
+    padding:100px 20px;
+    width:100%;
+    height:1000px;
+  }
+
+.wr-tx{
+
+  display:block;
+  width:90%;
+  height:90%;
+  margin:0 auto 0 auto;
+
+}
+  .wr-tx-001{
+    display:block;
+    height:200px;
+    width:100%;
+    margin:2% 2% 2% 2%;
+    text-align: center;
+  }
+  .wr-tx-001-1{
+      margin:20px 10px;
+      font-size:15px;
+      height:90%;
+      display:block;
+      opacity: 1;
+      color:white;
+
+    }
+  
+  /* .wr-tx-001-2{
+      margin:10px 10px;
+      padding-bottom:30px;
+      font-size:15px;
+
+      } */
+    .wr-tx-001 img{
+      width: 100%;
+      height:250px;
+      object-fit: cover;
+      overflow: hidden;
+      object-position: top;
+    }
+
+
+
+  
+  /* 人物 */
+
+  .ab{
+    background-color:whitesmoke;
+    width:100%;
+    height:1100px;
+    display:block;
+  }
+
+
+  .ab-img-002{
+  display:none;
+  }
+  .ab-img-001{
+    width:200px;
+    height:55%; 
+    margin-top:0px; 
+    display:inline-block; 
+    background-color:rgb(85, 97, 97); 
+    opacity: 0.5;
+    transform:skewX(0);
+    position: relative;
+    overflow:hidden;
+  }
+
+  .ab-ttl-001 a{
+    font-size:18px;
+    padding:33px 50px;
+  }
+   .ab-bx-tx-001{
+      display:inline-block;
+      top:150px;
+      transform: scaleY(1);
+      padding:15px;
+      width:100%;
+  }
+  .ab-bx-tx-001-1{
+    display: inline-block;
+    width:100%;
+    height:40px;
+    font-size:25px;
+    text-align: center;
+    margin-top:30px;
+}
+    .ab-bx-tx-001-2{
+      display: inline-block;
+      width:100%;
+      height:40px;
+      font-size:18px;
+      text-align: left;
+      text-align: center;
+  }
+    
+    .bx-form-ttl a{
+      padding:33px 50px;
+      font-size:18px;
+    }
+
+  }
+
+
+
+ 
